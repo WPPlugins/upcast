@@ -1,0 +1,98 @@
+/* CSS Document */
+
+input[type="text"].upcast { width: 150px }
+input[type="text"].upcast.upcast_search {
+	width : 100px;
+	padding : 2px;
+	background : white;
+}
+select.upcast.upcast_search {
+	padding : 2px;
+}
+input[type="submit"].upcast.upcast_search {
+    border-radius: 5px;
+    display: inline-block;
+    padding: 3px;
+    text-decoration: none;
+    height: inherit;
+    text-transform: none;
+    margin: 0px;
+    background: none;
+	background-color: #CCCCCC;
+    border: inherit;
+    box-shadow: none;
+    color: #F7F7F7;
+    text-shadow: 1px 1px 1px #000000;
+}
+.upcast.upcast_box {
+	float: left;
+	text-align: center;
+	margin: 0px 15px 15px 0px;
+}
+.upcast.upcast_box img {
+	border: 5px #CCCCCC solid;
+}
+.upcast.upcast_box h2 > a:hover {
+	color: #333333;
+}
+.upcast.upcast_box img:hover {
+	border: 5px #333333 solid;
+}
+
+textarea.upcast { width: 100% }
+input[type="text"].upcast-template { width : 300px }
+textarea.upcast-template, textarea.upcast-widget { width: 100% }
+div.upcast-section-header { width: 100% }
+div.upcast-section-header-desc { display: block; float: left }
+div.upcast-section-header-save { display: block; float: right }
+div.upcast-section-header-save > p.submit { padding-top: 0px; margin-top: 0px }
+body.settings_page_upcast-setting-admin h3 { text-align: left; background-color: #999; padding: 10px; border-radius: 5px; margin-right: 20px }
+div.upcast-settings-header { display: inline-block; width: 100%;  }
+div.upcast-settings-header-logo { display: block; float: left }
+div.upcast-settings-header-logo a { display: block }
+div.upcast-settings-header-text { display: block; float: left }
+
+div.upcast-expand { display: inline-block; font-size: 16px; width: 20px; height: 20px; background-color: #FFF; text-align: center; vertical-align: middle; border-radius: 2px; margin-right: 10px }
+div.upcast-expand:hover { cursor:pointer }
+
+p.upcast-widget { margin-top: 0px }
+p.upcast-widget:not(:first) { padding-top: 5px }
+.upcast-widget-label { margin-bottom: 2px; display: block; line-height: 1.5em}
+div.upcast-widget-settings-list { 
+	border: thin solid #DDD;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	padding: 5px 10px;
+	height: 100px;
+	overflow: scroll;
+ }
+ 
+div.upcast-widget-header-logo { display: inline-block; width: 100%; margin-top: 10px; margin-bottom: 0px; }
+div.upcast-widget-header-logo a { display: block }
+table.upcast-widget { margin-bottom: 10px }
+table.upcast-widget input[type="number"] { width: 60px }
+input.upcast-widget-input-narrow { width: 100px }
+table.upcast-widget td { vertical-align: middle; line-height: 1em }
+table.upcast-widget tr { line-height: 2em }
+table.upcast-widget label { display: block; padding-right: 10px; margin-bottom: 0px; margin-top: 0px }
+#upcast-widget-filter-syntax { display: inline-block; float: right }
+div.upcast-widget-section-header { display: inline-block; width: 100%}
+div.upcast-widget-section-header > label.upcast-widget-label { display: inline-block; float: left }
+
+div.upcast-widget-list {
+	display: block;
+	width: 100%;
+}
+div.upcast-widget-row {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	width: 100%;
+	overflow: hidden;
+	padding-left: 8px;
+  	margin-bottom: 15px;
+}
+div.upcast-widget-row > div.upcast-widget-cell:first-child { width:100% }
+div.upcast-widget-row > div.upcast-widget-cell:not(:first-child) { display:inline-block; float:left; padding-right: 10px }
+
+ 
+#upcast-test { background-color: #F00 }
